@@ -1,0 +1,24 @@
+h2{
+    font-size: 30px;
+}
+
+.container{
+    height: 300px;
+}
+
+.image{
+    margin: 10px;
+    height: 100%
+}
+
+.overlay{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    transition: background-color .5s ease-in-out
+    
+}
+
+.overlay:hover{
+    diplay: block;
+    background-color: rgba(0, 0, 0, .5);
+}
